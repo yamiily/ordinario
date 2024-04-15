@@ -1,0 +1,99 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf0b9ea;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    color: #0c0114;
+}
+
+/* Estilos para la sección de productos */
+#productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Estilos para cada producto */
+.producto {
+    background-color: #fafaf5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto p {
+    margin: 10px 0;
+}
+
+/* Estilos para el botón de agregar al carrito */
+.agregar-carrito {
+    background-color: #1c86f8;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.agregar-carrito:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el carrito de compras */
+#carrito {
+    margin-top: 40px;
+}
+
+#carrito h2 {
+    color: #333;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para el botón de comprar */
+#comprar-btn {
+    background-color: #6156fc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#comprar-btn:hover {
+    background-color: #dcf792;
+}
+
+/* Estilos para el total */
+#total {
+    font-weight: bold;
+    margin-top: 10px;
+}
